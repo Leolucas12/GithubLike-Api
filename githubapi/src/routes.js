@@ -47,4 +47,9 @@ routes.delete('/followers/:id', FollowerController.remove);
 routes.post('/repository/:id/star', StarController.create);
 routes.delete('/repository/:id/star', StarController.remove);
 
+//logout
+routes.post('/logout', (req, res) => {
+  req.session.token.user_id = undefinded;
+});
+
 export default routes;
