@@ -1,3 +1,4 @@
+
 <img src="https://www.luby.com.br/wp-content/uploads/2020/05/Logo-01-160x52.png" style="img { width: 100%; }" />
 
 # Nodejs Challenge
@@ -66,6 +67,14 @@ Execute os comandos:
 		    underscoredAll: true,
 	    }
     };
+    
+#### Execute as migrations com o comando:
+
+    npx sequelize db:migrate
+##### ou
+
+    yarn sequelize db:migrate
+
 <hr>
 
 ### :file_folder: Rotas e dados:
