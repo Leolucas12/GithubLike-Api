@@ -1,6 +1,3 @@
-
-<img src="https://www.luby.com.br/wp-content/uploads/2020/05/Logo-01-160x52.png" style="img { width: 100%; }" />
-
 # Nodejs Challenge
 
 A aplicação sera uma api que armazenara informações a respeito dos usuários dos github
